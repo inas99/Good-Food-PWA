@@ -1,0 +1,29 @@
+.additives__section {
+  margin-top: 20px;
+  box-shadow: 1px 1px 6px 0px #71db77;
+  box-shadow: #71db77;
+}
+
+.productDisplay__additive + .productDisplay__additive {
+  margin-top: 10px;
+}
+
+.additive__name {
+  font-weight: bold;
+}
+
+.additive__code {
+  text-transform: uppercase;
+}
+
+.additive__risk--value.high {
+  color: #ff6347;
+}
+
+.additive__risk--value.moderate {
+  color: #ffa500;
+}
+
+.additive__risk--value.low {
+  color: #3cb371;
+}

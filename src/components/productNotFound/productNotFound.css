@@ -1,0 +1,10 @@
+.productNotFound__container {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 1px 1px 6px 0px #71db77;
+  box-shadow: #71db77;
+}
+
+.productDisplay__title.not-found {
+  margin: 10px 0;
+}

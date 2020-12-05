@@ -1,0 +1,78 @@
+@import '~reset-css/reset.css';
+
+@font-face {
+  font-family: 'GeosansLight';
+  src: url('../public/fonts/GeosansLight.ttf');
+  font-display: swap;
+}
+
+body {
+  font-family: 'GeosansLight', Helvetica, sans-serif;
+  max-width: 680px;
+  margin: 0 auto;
+  background-color:#fff ;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 140px);
+}
+
+.btn__round {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #71db77;
+  border: none;
+  box-shadow: 2px 2px 7px 1px #666666;
+  transform: translateY(0);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn__round:hover {
+  background-color: #71db77;
+}
+
+.btn__round:focus {
+  box-shadow: 0px 0px 2px 0px #71db77;
+  transform: translateY(2px);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #71db77;
+  border: solid 1px #71db77;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn.full-wdth {
+  display: block;
+}
+
+.textInput {
+  border: solid 1px #71db77;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 10px;
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0px 0px 0px 0px #71db77;
+}
+
+.textInput:focus {
+  box-shadow: 1px 1px 6px 0px #71db77;
+  outline: none;
+}
