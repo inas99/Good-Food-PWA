@@ -1,10 +1,9 @@
 
 # GooodFood 🥕
 
-# Demo
 
 ## See it live
-
+https://goodfoodscanner.netlify.app/
 
 
 
