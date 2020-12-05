@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f135f82-9ad5-4836-81f4-aa97d637a797/deploy-status)](https://app.netlify.com/sites/goodfoodscanner/deploys)
+
 
 # GooodFood 🥕
 
